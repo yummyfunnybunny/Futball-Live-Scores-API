@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  background-image: url(futball-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  position: relative;
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fafafa;
+  border-radius: 8px;
+  text-transform: uppercase;
+  overflow: scroll;
+  height: 500px;
+}
+
+.title-box {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.title-box #goals {
+  font-size: 2.5rem;
+}
+.team {
+  width: 200px;
+}
+.team img {
+  height: 54px;
+  width: 54px;
+}
+
+.match-table {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* match tyile styles */
+
+.match-tile {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 50px 0 0 0;
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.match-tile img {
+  width: 52px;
+  height: 52px;
+}
+.match-tile p {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.match-tile .team {
+  width: 100px;
+}
